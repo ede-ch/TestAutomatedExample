@@ -13,6 +13,7 @@ public abstract class BaseTest {
     protected static WebDriver driver;
     private static final String URL_BASE = "https://pergamum.unipampa.edu.br/biblioteca_s/php/login_usu.php?flag=index.php";
     private static final String CAMINHO_DRIVER = "src/test/java/resource/msedgedriver107.0.1418.42.exe";
+    String csv = "teste.csv";
 
     /**
      * Método para iniciar o driver do navegador.
